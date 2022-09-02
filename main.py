@@ -5,10 +5,10 @@
 ##
 
 
-import pandas as pd
-import requests
-from ast import literal_eval
 import json
+from ast import literal_eval
+
+import requests
 
 
 def main() :
@@ -33,7 +33,6 @@ def main() :
     dc1 = json.load(fi)
 
   ##
-
 
 ##
 if __name__ == '__main__' :
